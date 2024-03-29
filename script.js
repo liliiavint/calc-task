@@ -1,6 +1,5 @@
 const billDOM = document.querySelector(".bill input");
 const ratenumberDOM = document.querySelector(".ratenumber");
-const wordDOM = document.querySelector(".word");
 const klaidaDOM = document.querySelector(".klaida");
 
 const resulttipDOM = document.querySelector(".resulttip");
@@ -16,8 +15,8 @@ function count() {
     const bill = parseFloat(billDOM.value);
     const ratenumber = parseFloat(ratenumberDOM.value);
     
-    let result15 = (bill * rate1).toFixed(2);
-    let result25 = (bill * rate2).toFixed(2);
+    let result15 = (bill * 0.15).toFixed(2);
+    let result25 = (bill * 0.25).toFixed(2);
         
     if (isNaN(bill)) {
         klaidaDOM.innerHTML = `<p class="resulttotal">ERROR</p>`;
