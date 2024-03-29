@@ -25,9 +25,18 @@ body .container{
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    font-size: 16px;
     gap: 1rem;
   
     
+}
+.word{
+    display:flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: self-start;
+    font-size: 1rem;
+    gap: 1.4rem
 }
 .rate{
     display:flex;
@@ -40,4 +49,20 @@ body .container{
 .ratenumber{
     width: 15rem;
     font-size: 15px;
+}
+.btnresult{
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+}
+.btnscaicio{
+    background-color: rgb(174, 174, 177);
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 23px;
+    line-height: 30px;
+    width: 20rem;
 }
