@@ -33,20 +33,29 @@ body .container{
   
     
 }
-.word{
-    display:flex;
-    justify-content: start;
-    flex-direction: column;
-    align-items: self-start;
-    
+
+.tip,
+.resulttotal,
+.resulttip {
+    display: inline;
+    margin: 0;
+    font-size: 1.5rem;
+    align-items: self-start;  
     gap: 1.4rem
 }
+.word{
+    display: inline-block;
+    align-items: self-start;   
+    gap: 2rem;
+    line-height: 40px;
+}
 .word1 .word2{
-    display:flex;
+    display:inline;
     justify-content: start;
     flex-direction: row;
     font-size: 1rem;
-    align-items: start;
+    gap: 2rem;
+  
 }
 
 
@@ -55,7 +64,7 @@ body .container{
     justify-content: space-between;
     flex-direction: row;
     width: 20rem;
-    font-size: 16px;
+    font-size: 1rem;
     gap: 1rem;
 }
 .ratenumber{
