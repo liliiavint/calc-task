@@ -1,0 +1,43 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa',
+        sans-serif;
+    margin-left: 3rem;
+    
+}
+body .container{
+    margin: 10rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    gap: 1rem;
+}
+.bill{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  
+    
+}
+.rate{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 20rem;
+    font-size: 16px;
+    gap: 1rem;
+}
+.ratenumber{
+    width: 15rem;
+    font-size: 15px;
+}
