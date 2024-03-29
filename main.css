@@ -18,7 +18,7 @@ body .container{
     flex-direction: column;
     justify-content: center;
     width: 20rem;
-    gap: 1rem;
+    gap: 2rem;
 }
 .name{
     text-align: center;

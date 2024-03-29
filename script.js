@@ -12,7 +12,7 @@ function count() {
 
     const bill = parseFloat(billDOM.value);
     const ratenumber = parseFloat(ratenumberDOM.value);
-    
+    let result5 = (bill * 0.05).toFixed(2);
     let result15 = (bill * 0.15).toFixed(2);
     let result25 = (bill * 0.25).toFixed(2);
         
@@ -20,9 +20,12 @@ function count() {
         klaidaDOM.innerHTML = `<p class="resulttotal">ERROR</p>`;
     } else {
         if (ratenumber === 1) {
+            resulttipDOM.textContent = `$ ${result5}`;
+            resulttotalDOM.textContent = `$ ${(bill + parseFloat(result5)).toFixed(2)}`;
+        } else if (ratenumber === 2) {
             resulttipDOM.textContent = `$ ${result15}`;
             resulttotalDOM.textContent = `$ ${(bill + parseFloat(result15)).toFixed(2)}`;
-        } else if (ratenumber === 2) {
+        }if (ratenumber === 3) {
             resulttipDOM.textContent = `$ ${result25}`;
             resulttotalDOM.textContent = `$ ${(bill + parseFloat(result25)).toFixed(2)}`;
         }
