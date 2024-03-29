@@ -20,6 +20,9 @@ body .container{
     width: 20rem;
     gap: 1rem;
 }
+.name{
+    text-align: center;
+}
 .bill{
     display:flex;
     justify-content: center;
@@ -38,12 +41,12 @@ body .container{
     
     gap: 1.4rem
 }
-.word1, .word2{
+.word1 .word2{
     display:flex;
     justify-content: start;
     flex-direction: row;
     font-size: 1rem;
-    align-items: self-start;
+    align-items: start;
 }
 
 
