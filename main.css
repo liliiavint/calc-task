@@ -35,9 +35,18 @@ body .container{
     justify-content: start;
     flex-direction: column;
     align-items: self-start;
-    font-size: 1rem;
+    
     gap: 1.4rem
 }
+.word1, .word2{
+    display:flex;
+    justify-content: start;
+    flex-direction: row;
+    font-size: 1rem;
+    align-items: self-start;
+}
+
+
 .rate{
     display:flex;
     justify-content: space-between;
