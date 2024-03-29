@@ -9,8 +9,6 @@ const rate1DOM = document.getElementById("15");
 const rate2DOM = document.getElementById("25");
 
 function count() {
-    const rate1 = parseFloat(rate1DOM.value);
-    const rate2 = parseFloat(rate2DOM.value); 
 
     const bill = parseFloat(billDOM.value);
     const ratenumber = parseFloat(ratenumberDOM.value);
