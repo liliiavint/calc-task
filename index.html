@@ -12,38 +12,40 @@
     <title>Calculate</title>
 </head>
 <body>
-    <div class="container">
-        <div class="name">
-            <h1> Tip calculator</h1>
-        </div>
-        <div class="bill" >
-            <p>Bill</p>
-            <input class="bill w3-input w3-border w3-round" type="text" placeholder="">
-        </div>
-        <div class="rate" >
-            <p>Rate service</p>
-            <select class="ratenumber w3-input w3-border w3-round" name="ratenumber">
-                <option id="5" value="1">5%</option>
-                <option id="15" value="2">15%</option>
-                <option id="25" value="3">25%</option>
-            </select>
-        </div>
-        <div class="btnresult">
-            <button class="btnscaicio">
-                Calculate
-            </button>
-        </div>
-        <div class="word">
-            <div class="word1">
-                <h3 class="tip">Tip:</h3>
-                <p class="resulttip"></p>
+    <div class="center">
+        <div class="container">
+            <div class="name">
+                <h1> Tip calculator</h1>
             </div>
-            <div class="word2">
-                <h3 class="tip">Total:</h3>
-                <p class="resulttotal"></p>
+            <div class="bill" >
+                <p>Bill</p>
+                <input class="bill w3-input w3-border w3-round" type="text" placeholder="">
             </div>
+            <div class="rate" >
+                <p>Rate service</p>
+                <select class="ratenumber w3-input w3-border w3-round" name="ratenumber">
+                    <option id="5" value="1">5%</option>
+                    <option id="15" value="2">15%</option>
+                    <option id="25" value="3">25%</option>
+                </select>
+            </div>
+            <div class="btnresult">
+                <button class="btnscaicio">
+                    Calculate
+                </button>
+            </div>
+            <div class="word">
+                <div class="word1">
+                    <h3 class="tip">Tip:</h3>
+                    <p class="resulttip"></p>
+                </div>
+                <div class="word2">
+                    <h3 class="tip">Total:</h3>
+                    <p class="resulttotal"></p>
+                </div>
+            </div>
+            <div class="klaida"></div>
         </div>
-        <div class="klaida"></div>
     </div>
     <script src="./script.js"></script> 
 </body>

@@ -2,22 +2,27 @@ body,
 body * {
     margin: 0;
     padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
+   
 }
 
 body {
     font-family: 'Comfortaa',
         sans-serif;
-    margin-left: 3rem;
+   
     
 }
-body .container{
-    margin: 10rem 10rem;
+.center{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+ .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 20rem;
+    height: 40rem;
     gap: 2rem;
 }
 .name{
@@ -77,13 +82,19 @@ body .container{
     width: 20rem;
 }
 .btnscaicio{
-    background-color: rgb(174, 174, 177);
-    color: white;
-    width: 10rem;
-    height: 3rem;
+    background-color: #efefef;
     border: none;
+    border-radius: 1.6rem;
+    color: #424242;
+    box-shadow: -6px -6px 10px #f9f9f9,
+                6px 6px 10px #00000026;
     border-radius: 25px;
     font-size: 23px;
+    height: 3rem;
     line-height: 30px;
     width: 20rem;
+}
+.btnscaicio:hover{
+    box-shadow: 2px 2px 2px #f9f9f9,
+    -2px -2px 2px #00000026;
 }
